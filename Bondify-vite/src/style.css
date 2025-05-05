@@ -1,0 +1,73 @@
+body {
+    background-color: rgba(255, 255, 255, 0.815) !important;
+  }
+  
+  .navbar img {
+    filter: drop-shadow(1px 0px 1px white);
+  }
+  
+  .dropdown-menu {
+    background-color: rgb(133, 212, 231) !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: rgb(173, 223, 235) !important;
+  }
+  
+  .carousel-caption p, .carousel-caption h3 {
+    text-transform: uppercase;
+    background: linear-gradient(to right bottom, #0059ff, #ffff, #940505);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 10s linear infinite;
+  }
+  
+  #popUp {
+    width: 30vh;
+    height: 25vh !important;
+    filter: drop-shadow(2px 1px 3px rgb(0, 0, 0));
+    z-index: 1050;
+    animation: popup 1s forwards;
+    transform: translateX(-120%);
+  }
+  
+  #popUp.hide-left {
+    animation: close 0.6s forwards;
+  }
+  
+  @keyframes popup {
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes close {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animate-gradient {
+    to {
+      background-position: 250%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 40vh !important;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .carousel-item img {
+      height: 60vh !important;
+    }
+  }
+  
