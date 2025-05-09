@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carousel = () => {
   return (
-    <div className="container-md mt-5">
+    <div className="container-md mt-3" id='carousel'>
       <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {[1, 2, 3].map((n, index) => (
@@ -11,7 +11,7 @@ const Carousel = () => {
                 <h3>Başlıq {n}</h3>
                 <p>Açıqlama {n}</p>
               </div>
-              <img src={`/foto/tb${n}.jpg`} className="d-block w-100" alt={`slide-${n}`} />
+              <img src={`public/foto/tb${n}.jpg`} className="d-block w-100" alt={`slide-${n}`} />
             </div>
           ))}
         </div>

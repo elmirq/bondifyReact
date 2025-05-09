@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'rgb(173, 223, 235)' }}>
+    <nav className="navbar navbar-expand-lg" id='navbar' style={{ backgroundColor: 'rgb(92, 116, 255)', }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img src="public/foto/bond.png" alt="Logo" width="50" height="45" />
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style={{color: 'white'}}>
                 Biz Kimik
               </a>
               <ul className="dropdown-menu">
@@ -24,7 +24,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style={{color: 'white'}}>
                 Xidmətlər
               </a>
               <ul className="dropdown-menu">
@@ -42,7 +42,7 @@ const Navbar = () => {
             <li className="nav-item"><a className="nav-link disabled">Müştərilər</a></li>
           </ul>
           <form className="d-flex" role="search">
-            <button className="btn btn-outline-dark" type="submit">Əlaqə</button>
+            <button className="btn btn-outline-light" type="submit">Əlaqə</button>
           </form>
         </div>
       </div>

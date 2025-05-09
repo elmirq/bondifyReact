@@ -18,7 +18,7 @@ const PopUp = () => {
   }, []);
 
   return (
-    <div className="card position-absolute bottom-0 start-0 mb-1 ms-1" id="popUp">
+    <div className="card position-fixed bottom-0 start-0 mb-1 ms-1" id="popUp">
       <h5 className="card-header">
         Feaed
         <button type="button" id="baglamaButton" className="btn btn-sm position-absolute top-0 end-0 m-2">
