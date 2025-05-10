@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg" id='navbar' style={{ backgroundColor: 'rgb(92, 116, 255)', }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src="public/foto/bond.png" alt="Logo" width="50" height="45" />
+          <img src="/bondifyReact/foto/bond.png" alt="Logo" width="50" height="45" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span className="navbar-toggler-icon"></span>

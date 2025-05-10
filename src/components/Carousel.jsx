@@ -11,7 +11,7 @@ const Carousel = () => {
                 <h3>Başlıq {n}</h3>
                 <p>Açıqlama {n}</p>
               </div>
-              <img src={`public/foto/tb${n}.jpg`} className="d-block w-100" alt={`slide-${n}`} />
+              <img src={`/bondifyReact/foto/tb${n}.jpg`} className="d-block w-100" alt={`slide-${n}`} />
             </div>
           ))}
         </div>
