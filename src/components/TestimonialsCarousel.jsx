@@ -6,19 +6,19 @@ const testimonials = [
     name: 'Ahmet Yılmaz',
     quote: 'Bu hizmet harikaydı! Gerçekten işimi çok kolaylaştırdı.',
     company: 'UNICEF.',
-    img: 'public/foto/unicef.png'
+    img: '/foto/unicef.png'
   },
   {
     name: 'Ayşe Demir',
     quote: 'Kullanımı kolay ve çok pratik. Tavsiye ederim!',
     company: 'SOCAR.',
-    img: 'public/foto/SOCAR.png'
+    img: '/foto/SOCAR.png'
   },
   {
     name: 'Mehmet Can',
     quote: 'Müşteri hizmetleri mükemmel, çok memnun kaldım.',
     company: 'Irshad',
-    img: 'public/foto/irshad.png'
+    img: '/foto/irshad.png'
   },
 ];
 
