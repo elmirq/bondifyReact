@@ -1,24 +1,25 @@
 import { Carousel, Container, Form } from 'react-bootstrap';
-// import img1 from '/project/Bondify-vite/public/foto/unicef.png'
-
+import img1 from '/public/foto/unicef.png'
+import img2 from '/public/foto/unicef.png'
+import img3 from '/public/foto/unicef.png'
 const testimonials = [
   {
     name: 'Ahmet Yılmaz',
     quote: 'Bu hizmet harikaydı! Gerçekten işimi çok kolaylaştırdı.',
     company: 'UNICEF.',
-    img: '/foto/unicef.png'
+    img: img1
   },
   {
     name: 'Ayşe Demir',
     quote: 'Kullanımı kolay ve çok pratik. Tavsiye ederim!',
     company: 'SOCAR.',
-    img: '/foto/SOCAR.png'
+    img: img2
   },
   {
     name: 'Mehmet Can',
     quote: 'Müşteri hizmetleri mükemmel, çok memnun kaldım.',
     company: 'Irshad',
-    img: '/foto/irshad.png'
+    img: img3
   },
 ];
 
