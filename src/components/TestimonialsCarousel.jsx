@@ -1,7 +1,7 @@
 import { Carousel, Container, Form } from 'react-bootstrap';
 import img1 from '/public/foto/unicef.png'
-import img2 from '/public/foto/unicef.png'
-import img3 from '/public/foto/unicef.png'
+import img2 from '/public/foto/SOCAR.png'
+import img3 from '/public/foto/irshad.png'
 const testimonials = [
   {
     name: 'Ahmet Yılmaz',
