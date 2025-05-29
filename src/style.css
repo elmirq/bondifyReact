@@ -139,6 +139,22 @@ body {
     height: 150px;
     object-fit: cover;
   }
+
+
+  #testiFoto{
+    width: 5rem !important;
+  height: 5rem !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(700deg);
+  background-color: transparent !important;
+}
+  
   
   #popUp {
     width: 30vh;

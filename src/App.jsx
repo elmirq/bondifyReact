@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import PopUp from './components/PopUp';
 import Jobs from './components/Jobs';
 import Footer from './components/Footer'
+import TestimonialsCarousel from './components/TestimonialsCarousel';
 const App = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const App = () => {
       <Carousel />
       <PopUp />
       <Jobs />
+      <TestimonialsCarousel />
       <Footer />
     </>
   );
